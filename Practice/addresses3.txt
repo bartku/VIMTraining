@@ -1,0 +1,7 @@
+10.111.234.180      test-kafka-wrk00.atena.pl
+10.111.234.181      test-kafka-wrk01.atena.pl
+10.111.234.182      test-kafka-wrk02.atena.pl
+10.111.234.183      test-kafka-mgt00.atena.pl
+10.111.234.184      test-kafka-zk00.atena.pl
+10.111.234.185      test-kafka-zk01.atena.pl
+10.111.234.186      test-kafka-zk02.atena.pl

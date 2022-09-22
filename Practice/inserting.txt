@@ -1,0 +1,42 @@
+One of these lines is not like the other one.
+One of these is like the other one.
+
+Hello, my name is Jason.
+my name is Jason.
+
+Once upon a time.
+Oce upon a time.
+
+There was no possibility of taking a walk that day.
+There was no possibility of taking a walk that
+
+What is 3 + 2?  Answer on the line below:
+
+Create a line of asterisks below:
+
+Create 5 lines that begin with "#".
+
+Create 4 lines that begin with "10.11.12.".
+
+Replace me!
+
+Make uppEr uppercase.
+
+Make This All Uppercase.
+
+Make LOwER lowercase.
+
+Make This All Lowercase.
+
+The cat chased
+the mouse.
+
+The cat chased.
+
+3.
+4159
+
+Thing 2
+Thing 1
+Thing 3
+

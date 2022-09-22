@@ -1,0 +1,34 @@
+Cut this line and paste it after the line of hyphens.
+This is just some random text.
+--------------------------------------------------------------------------------
+
+This line should come after "The quick brown fox jumps over the lazy dog."
+The quick brown fox jumps over the lazy dog.
+
+fi
+
+badcfe
+
+to the beginning. Move this
+
+Can you duplicate this?
+
+Can you double duplicate this?
+
+Can you double duplicate this, again?
+
+Duplicate this entire line.
+
+TODO
+This line needs to be fixed at some point in the future.
+Fix this line too!
+You're work is not quite finished...
+
+Put this line in the a register.
+Put this one in the b register.
+Append this line to the a register.
+Append this line to the b register.
+
+Zebra <= Cut this word into the z register.
+
+--------------------------------------------------------------------------------

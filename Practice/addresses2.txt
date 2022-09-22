@@ -1,0 +1,4 @@
+10.111.234.187      dev-kafka-wrk00.atena.pl
+10.111.234.188      dev-kafka-wrk01.atena.pl
+10.111.234.189      dev-kafka-wrk02.atena.pl
+10.111.234.190      dev-kafka-mgt00.atena.pl
