@@ -9,7 +9,9 @@ scripts=[ 'bin/backup',
 
 <yank_me>
 
-<p><a href="https://example.com/some/path">Example</a></p>
+<p>
+    <a href="https://example.com/some/path">Example</a>
+</p>
 
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>

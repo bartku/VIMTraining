@@ -1,18 +1,22 @@
-This is a sentence comprised of many words.  This is another sentence. A 
-paragraph is made up of multiple sentences.  Just like this one!
+This is a sentence comprised of many words.  This is another sentence. A
+paragraph is made up of multiple sentences.  Just like this one? And this
+one!?! Yes.
 
 This is also paragraph.
 No only is it made up of multiple sentences, it's made up of multiple lines.
 This is the last line in this paragraph.
 
 colors = ['red', 'green', 'blue']
+
 print(colors)
+
 <html>
 <p>This is <strong>so, so, very</strong> cool!</p>
 <i_made_this_up>There is text here.</i_made_this_up>
+</html>
 
 scores = {
-  'boars': 6, 
+  'boars': 6,
   'saints': 7,
   'bandits': 0
 }

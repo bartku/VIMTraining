@@ -11,13 +11,7 @@ badcfe
 
 to the beginning. Move this
 
-Can you duplicate this?
-
-Can you double duplicate this?
-
-Can you double duplicate this, again?
-
-Duplicate this entire line.
+Duplicate this line twice.
 
 TODO
 This line needs to be fixed at some point in the future.
@@ -30,5 +24,3 @@ Append this line to the a register.
 Append this line to the b register.
 
 Zebra <= Cut this word into the z register.
-
---------------------------------------------------------------------------------

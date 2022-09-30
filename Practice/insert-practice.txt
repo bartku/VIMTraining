@@ -6,9 +6,9 @@ Enter your name here =><=
 
 Enter your name here:
 
-One the line below, type the name of your favorite movie.
+On the line below, type the name of your favorite movie.
 
-^^^ One the line above, type the name of the editor you are using.
+^^^ On the line above, type the name of the editor you are using.
 
 This line belongs
 with the one below it.
@@ -17,11 +17,9 @@ Vim is her favorite editor.
 
 I have a white car.
 
-I am having a great time in this vim class!
-
 monday <= The "m" is supposed to be in uppercase.
 
-mONDAY'S START BETTER WITH coffee.
+mONDAYS START BETTER WITH coffee.
 
 Create a line of asterisks below:
 

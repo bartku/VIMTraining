@@ -1,4 +1,4 @@
-Use characterwise visual mode to delete this => DELETE ME, DELETE ME, Yes!!! <=
+Use characterwise visual mode to delete this => DELETE ME, DELETE ME <=
 
 Yank this sentence. However, leave this one out of the registers, please.
 

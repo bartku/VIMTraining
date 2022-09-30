@@ -1,3 +1,7 @@
+" Use Vim settings, not Vi settings (this should
+" be the first line in your config)
+set nocompatible
+
 " Save 1,000 items in history
 set history=1000
 
@@ -31,6 +35,9 @@ set smartcase
 " Turn on line numbering
 set number
 
+" Turn on relative line numbers
+set relativenumber
+
 " Don't line wrap mid-word.
 set lbr
 
@@ -50,23 +57,29 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
+" Show mode Vim is in
+set showmode
+
+" No need for a swap/backup file in the 21st century
+set nobackup
+set noswapfile
+
+" Keep settings and history between sessions
+set viminfo=!,'100,<50,s10,h
 
 " Specifiy a color scheme.
 colorscheme desert
 
-" Tell vim what background you are using
-" set bg=light
-" set bg=dark
+" Show colors
+syntax on
 
 " Map Y to act like D and C, i.e. yank until EOL, rather than act like yy
-" map Y y$
-
-" Remap VIM 0 to first non-blank character
-" map 0 ^
+map Y y$
 
 " change the mapleader from \ to ,
 " NOTE: This has to be set before <leader> is used.
-let mapleader=","
+" NOTE: A good option for <leader> is also SPACE
+let mapleader=','
 
 " Quickly save your file.
 map <leader>w :w!<cr>

@@ -1,5 +1,5 @@
-This was originally the first line in the file.
 This was originally the second line in the file.
+This was originally the first line in the file.
 
 What was the first line in the file originally?  Place it below:
 
