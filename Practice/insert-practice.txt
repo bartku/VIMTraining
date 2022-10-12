@@ -6,9 +6,9 @@ Enter your name here =><=
 
 Enter your name here:
 
-On the line below, type the name of your favorite movie.
+Type your name on the line below.
 
-^^^ On the line above, type the name of the editor you are using.
+^^^ Type your name on the line above.
 
 This line belongs
 with the one below it.

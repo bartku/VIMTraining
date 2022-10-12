@@ -2,6 +2,9 @@
 " be the first line in your config)
 set nocompatible
 
+" Sane setting for backspace key
+set backspace=2
+
 " Save 1,000 items in history
 set history=1000
 

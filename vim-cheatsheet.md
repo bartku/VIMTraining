@@ -30,48 +30,39 @@
   * [Working with multiple files](#working-with-multiple-files)
   * [Diff Operations](#diff-operations)
 
-
-
-## Misc Commands
-
-* ```:h[elp] <keyword>``` - open help for ```<keyword>``` (_don't use "<>"_)
-* ```:sav[eas] <file>``` - save ```<file>``` as
-* ```:clo[se]``` - close current pane
-* ```:ter[minal]``` - open a terminal window
-
 ---
 
 ## Editor Actions
 ### Single Letter Actions
 
-* ```K``` - open man page for word under the cursor
-* **Tip**: - _Run vimtutor in a terminal to learn the first Vim commands._
-
-* ```h``` - move cursor left
-* ```j``` - move cursor down
-* ```k``` - move cursor up
-* ```l``` - move cursor right
-* ```H``` - move to top of screen
-* ```M``` - move to middle of screen
-* ```L``` - move to bottom of screen
-* ```w``` - jump forwards to the start of a word
-* ```W``` - jump forwards to the start of a word (words can contain punctuation)
-* ```e``` - jump forwards to the end of a word
-* ```E``` - jump forwards to the end of a word (words can contain punctuation)
-* ```b``` - jump backwards to the start of a word
-* ```B``` - jump backwards to the start of a word (words can contain punctuation)
-* ```%``` - move to matching character (default supported pairs: '()', '{}', '[]' - use :h matchpairs in vim for more info)
-* ```0``` - jump to the start of the line
-* ```^``` - jump to the first non-blank character of the line
-* ```$``` - jump to the end of the line
-* ```;``` - repeat previous f, t, F or T movement
-* ```,``` - repeat previous f, t, F or T movement, backwards
-* ```}``` - jump to next paragraph (or function/block, when editing code)
-* ```{``` - jump to previous paragraph (or function/block, when editing code)
+* ```h```  - move cursor left
+* ```j```  - move cursor down
+* ```k```  - move cursor up
+* ```l```  - move cursor right
+* ```H```  - move to top of screen
+* ```M```  - move to middle of screen
+* ```L```  - move to bottom of screen
+* ```w```  - jump forwards to the start of a word
+* ```W```  - jump forwards to the start of a WORD (whitespace as delimiter)
+* ```e```  - jump forwards to the end of a word
+* ```E```  - jump forwards to the end of a WORD (whitespace as delimiter)
+* ```b```  - jump backwards to the start of a word
+* ```B```  - jump backwards to the start of a WORD (whitespace as delimiter)
+* ```%```  - move to matching character (default supported pairs: '()', '{}', '[]' - :h matchpairs for more info)
+* ```0```  - jump to the start of the line
+* ```^```  - jump to the first non-blank character of the line
+* ```$```  - jump to the end of the line
+* ```;```  - repeat previous f, t, F or T movement
+* ```,```  - repeat previous f, t, F or T movement, backwards
+* ```}```  - jump to next paragraph (or function/block)
+* ```{```  - jump to previous paragraph (or function/block)
+* ```K```  - open help page for word under the cursor
 
 ### Multiple Letter Actions
 
 * ```g_``` - jump to the last non-blank character of the line
+* ```ge``` - jump to the end of the previous word
+* ```gE``` - jump to the end of the previous WORD (whitespace as delimiter)
 * ```gg``` - go to the first line of the document
 * ```G```  - go to the last line of the document
 * ```5gg``` or ```5G```- go to line 5
@@ -82,6 +73,8 @@
 * ```Fx``` - jump to previous occurence of character x
 * ```Tx``` - jump to after previous occurence of character x
 * ```zz``` - center cursor on screen
+* ```zt``` - cursor to the top of the screen
+* ```zb``` - cursor to the bottom of the screen
 
 ### Multiple Line Actions
 
@@ -124,6 +117,7 @@
 * ```Ctrl + wq``` - quit a window
 * ```Ctrl + wx``` - exchange current window with next one
 * ```Ctrl + w=``` - make all windows equal height & width
+* ```Ctrl + w_``` - maximise current window
 * ```Ctrl + wh``` - move cursor to the left window (vertical split)
 * ```Ctrl + wl``` - move cursor to the right window (vertical split)
 * ```Ctrl + wj``` - move cursor to the window below (horizontal split)
@@ -139,10 +133,9 @@
 * ```I``` - insert at the beginning of the line
 * ```a``` - insert (append) after the cursor
 * ```A``` - insert (append) at the end of the line
-* ```o``` - append (open) a new line below the current line
-* ```O``` - append (open) a new line above the current line
-* ```ea``` - insert (append) at the end of the word
-* ```Esc``` - exit insert mode
+* ```o``` - insert a new line below the current line and go into insert mode
+* ```O``` - insert a new line above the current line and go into insert mode
+* ```<ESC>``` - exit insert mode
 
 ### General Editing
 * ```r``` - replace a single character
@@ -202,10 +195,10 @@
 
 ## Registers
 * ```:reg[isters]``` - show registers content
-* ```"xy` ```- yank into register x
-* ```"xp` ``` - paste contents of register x
-* ```"+y` ```- yank into the system clipboard register
-* ```"+p` ```- paste from the system clipboard register
+* ```"xy```- yank into register x
+* ```"xp``` - paste contents of register x
+* ```"+y```- yank into the system clipboard register
+* ```"+p```- paste from the system clipboard register
 
 * **Tip** - _Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim._
 
@@ -310,6 +303,7 @@
 * ```N``` - repeat search in opposite direction
 * ```:%s/old/new/g``` - replace all old with new throughout file
 * ```:%s/old/new/gc``` - replace all old with new throughout file with confirmations
+* **Tip** - _:help gdefault_
 * ```:noh[lsearch]``` - remove highlighting of search matches
 ### Search in multiple files
 * ```:vim[grep] /pattern/ {`{file}`}****``` - search for pattern in multiple files

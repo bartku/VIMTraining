@@ -1,14 +1,14 @@
-One of these lines is not like the other one.
-One of these is like the other one.
+One of these lines is not like the other.
+One of these is like the other.
 
-Hello, my name is Jason.
-my name is Jason.
+Hello, my name is [insert_name_here].
+my name is [insert_name_here].
 
 Once upon a time.
 Oce upon a time.
 
-There was no possibility of taking a walk that day.
-There was no possibility of taking a walk that
+Add a trailing semicolon on the line below.
+my local var=5
 
 What is 3 + 2?  Answer on the line below:
 
@@ -18,7 +18,7 @@ Create 5 lines that begin with "#".
 
 Create 4 lines that begin with "10.11.12.".
 
-Replace me!
+Replace this line.
 
 Make uppEr uppercase.
 
@@ -28,10 +28,8 @@ Make LOwER lowercase.
 
 Make This All Lowercase.
 
-The cat chased
-the mouse.
-
-The cat chased.
+Make this sentence
+one line.
 
 3.
 14159
