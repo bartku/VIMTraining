@@ -1,5 +1,5 @@
 
-# Atom Heart Mother
+# Atom Heart Mother (1970)
 
     1. Atom Heart Mother
     2. If
@@ -7,7 +7,7 @@
     4. Fat Old Sun
     5. Alan's Psychedelic Breakfast
 
-# Meddle
+# Meddle (1971)
 
     1. One of These Days
     2. A Pillow of Winds
@@ -16,15 +16,14 @@
     5. Seamus
     6. Echoes
 
-# Wish You Were Here
+# Wish You Were Here (1975)
 
     1. Shine On You Crazy Diamond (Parts I - V)
     2. Welcome to the Machine
     3. Have a Cigar (feat. Roy Harper)
-    4. Wish You Were Here
-    5. Shine On You Crazy Diamond (Parts VI - IX)
+    4. Wish You Were Here 5. Shine On You Crazy Diamond (Parts VI - IX)
 
-# Animals
+# Animals (1977)
 
     1. Pigs on a Wing (Part One)
     2. Dogs

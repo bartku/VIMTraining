@@ -3,10 +3,8 @@ You can use this file to practice editing.
 First, fix this spelling mistakke.
 Fixx theese allso.
 Delete this text with the X command.
-Who let the dogs out? cats
 Here is another line of text.
 Guess what?  Here is even more text!
-Will you delete this line or not?  We'll see...
 
 one two three four five six seven eight nine ten eleven twelve thirteen
 two three four five six seven eight nine ten eleven twelve thirteen

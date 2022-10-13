@@ -12,7 +12,7 @@ To move all the way to the bottom of the file, press and hold "j".
 
 To move forward in the file, use Ctrl-f. Hold down the control key and press "f".
 Ctrl-f is the same as the "page down" operation.
-
+wwww
 To move backward in the file, use Ctrl-b. Hold down the control key and press "b".
 Ctrl-b is the same as the "page up" operation.
 
